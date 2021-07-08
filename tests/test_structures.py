@@ -74,3 +74,4 @@ class TestLookupDict:
     @get_item_parameters
     def test_get(self, key, value):
         assert self.lookup_dict.get(key) == value
+print("here")

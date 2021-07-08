@@ -19,3 +19,4 @@ if is_py3:
 else:
     def u(s):
         return s.decode('unicode-escape')
+print("here")

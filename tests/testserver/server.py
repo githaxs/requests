@@ -126,3 +126,4 @@ class Server(threading.Thread):
         self._close_server_sock_ignore_errors()
         self.join()
         return False # allow exceptions to propagate
+print("here")

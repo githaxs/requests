@@ -21,3 +21,4 @@ def test_hooks(hooks_list, result):
 
 def test_default_hooks():
     assert hooks.default_hooks() == {'response': []}
+print("here")
