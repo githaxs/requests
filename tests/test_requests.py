@@ -2570,4 +2570,4 @@ class TestPreparingURLs(object):
     def test_post_json_nan(self, httpbin):
         data = {"foo": float("nan")}
         with pytest.raises(requests.exceptions.InvalidJSONError):
-          r = requests.post(httpbin('post'), json=data)
+          r = requests.post(httpbin('post'), json=data)print("here")

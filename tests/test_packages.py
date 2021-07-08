@@ -11,3 +11,4 @@ def test_can_access_idna_attribute():
 
 def test_can_access_chardet_attribute():
     requests.packages.chardet
+print("here")

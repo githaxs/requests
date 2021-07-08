@@ -24,3 +24,4 @@ for mod in list(sys.modules):
     if mod == target or mod.startswith(target + '.'):
         sys.modules['requests.packages.' + target.replace(target, 'chardet')] = sys.modules[mod]
 # Kinda cool, though, right?
+print("here")

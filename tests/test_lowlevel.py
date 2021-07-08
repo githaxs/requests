@@ -307,3 +307,4 @@ def test_fragment_update_on_redirect():
         assert r.url == 'http://{}:{}/final-url/#relevant-section'.format(host, port)
 
         close_server.set()
+print("here")

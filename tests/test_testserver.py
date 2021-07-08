@@ -164,3 +164,4 @@ class TestTestServer:
 
         # if the server thread fails to finish, the test suite will hang
         # and get killed by the jenkins timeout.
+print("here")

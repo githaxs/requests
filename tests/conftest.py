@@ -22,3 +22,4 @@ def httpbin(httpbin):
 @pytest.fixture
 def httpbin_secure(httpbin_secure):
     return prepare_url(httpbin_secure)
+print("here")

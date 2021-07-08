@@ -781,3 +781,4 @@ def test_set_environ_raises_exception():
             raise Exception('Expected exception')
 
     assert 'Expected exception' in str(exception.value)
+print("here")
